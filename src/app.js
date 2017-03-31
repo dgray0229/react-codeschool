@@ -1,18 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import jQuery from 'jquery';
-<<<<<<< HEAD
-import CommentBox from './components/comment-box';
-
-jQuery(function() {
-    ReactDOM.render(
-        <CommentBox />,
-        document.getElementById('comment-box'),
-        function() {
-            console.timeEnd('react-app');
-        }
-    );
-=======
 
 import {hashHistory, Router, Route, Redirect} from 'react-router';
 
@@ -41,5 +29,4 @@ jQuery(function() {
       console.timeEnd('react-app')
     }
   );
->>>>>>> a82b17d255f804d18be49efcd4f3a250d8aa25f4
 })
